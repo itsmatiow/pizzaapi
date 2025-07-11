@@ -1,0 +1,191 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "مارگاریتا",
+      "unitPrice": 960000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-1.jpg",
+      "ingredients": ["گوجه فرنگی", "پنیر موزارلا", "سبزی ریحون"],
+      "soldOut": false
+    },
+    {
+      "id": 2,
+      "name": "کاپریچیوزا",
+      "unitPrice": 1120000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-2.jpg",
+      "ingredients": [
+        "گوجه فرنگی",
+        "پنیر موزارلا",
+        "ژامبون",
+        "قارچ",
+        "کنگر فرنگی"
+      ],
+      "soldOut": true
+    },
+    {
+      "id": 3,
+      "name": "رومانا",
+      "unitPrice": 1200000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-3.jpg",
+      "ingredients": ["گوجه فرنگی", "پنیر موزارلا", "پروسسوتو"],
+      "soldOut": false
+    },
+    {
+      "id": 4,
+      "name": "پروسسوتو و آرگولا",
+      "unitPrice": 1280000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-4.jpg",
+      "ingredients": ["گوجه فرنگی", "پنیر موزارلا", "پروسسوتو", "آرگولا"],
+      "soldOut": false
+    },
+    {
+      "id": 5,
+      "name": "دیابولا",
+      "unitPrice": 1280000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-5.jpg",
+      "ingredients": ["گوجه فرنگی", "پنیر موزارلا", "سالامی تند", "فلفل چیلی"],
+      "soldOut": false
+    },
+    {
+      "id": 6,
+      "name": "وجیتاله",
+      "unitPrice": 1040000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-6.jpg",
+      "ingredients": [
+        "گوجه فرنگی",
+        "پنیر موزارلا",
+        "فلفل دلمه‌ای",
+        "پیاز",
+        "قارچ"
+      ],
+      "soldOut": false
+    },
+    {
+      "id": 7,
+      "name": "ناپولی",
+      "unitPrice": 1280000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-7.jpg",
+      "ingredients": [
+        "گوجه فرنگی",
+        "پنیر موزارلا",
+        "گوجه فرنگی تازه",
+        "سبزی ریحون"
+      ],
+      "soldOut": false
+    },
+    {
+      "id": 8,
+      "name": "سیسیلیانا",
+      "unitPrice": 1280000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-8.jpg",
+      "ingredients": ["گوجه فرنگی", "پنیر موزارلا", "آنچوی", "زیتون", "کپر"],
+      "soldOut": true
+    },
+    {
+      "id": 9,
+      "name": "پپرونی",
+      "unitPrice": 1120000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-9.jpg",
+      "ingredients": ["گوجه فرنگی", "پنیر موزارلا", "پپرونی"],
+      "soldOut": false
+    },
+    {
+      "id": 10,
+      "name": "هاوایی",
+      "unitPrice": 1200000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-10.jpg",
+      "ingredients": ["گوجه فرنگی", "پنیر موزارلا", "آناناس", "ژامبون"],
+      "soldOut": false
+    },
+    {
+      "id": 11,
+      "name": "اسفناج و قارچ",
+      "unitPrice": 1200000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-11.jpg",
+      "ingredients": ["گوجه فرنگی", "پنیر موزارلا", "اسفناج", "قارچ"],
+      "soldOut": false
+    },
+    {
+      "id": 12,
+      "name": "مدیترانه‌ای",
+      "unitPrice": 1280000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-12.jpg",
+      "ingredients": [
+        "گوجه فرنگی",
+        "پنیر موزارلا",
+        "گوجه خشک شده",
+        "زیتون",
+        "کنگر فرنگی"
+      ],
+      "soldOut": false
+    },
+    {
+      "id": 13,
+      "name": "یونانی",
+      "unitPrice": 1280000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-13.jpg",
+      "ingredients": [
+        "گوجه فرنگی",
+        "پنیر موزارلا",
+        "اسفناج",
+        "پنیر فتا",
+        "زیتون",
+        "فلفل پپرونچینی"
+      ],
+      "soldOut": true
+    },
+    {
+      "id": 14,
+      "name": "آبروزز",
+      "unitPrice": 1280000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-14.jpg",
+      "ingredients": ["گوجه فرنگی", "پنیر موزارلا", "پروسسوتو", "آرگولا"],
+      "soldOut": false
+    },
+    {
+      "id": 15,
+      "name": "پستو مرغ",
+      "unitPrice": 1280000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-15.jpg",
+      "ingredients": ["پستو", "پنیر موزارلا", "مرغ", "گوجه خشک شده", "اسفناج"],
+      "soldOut": false
+    },
+    {
+      "id": 16,
+      "name": "موساکای بادمجان",
+      "unitPrice": 1200000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-16.jpg",
+      "ingredients": ["سس مارینارا", "پنیر موزارلا", "بادمجان", "پنیر پارمزان"],
+      "soldOut": false
+    },
+    {
+      "id": 17,
+      "name": "سبزیجات کبابی",
+      "unitPrice": 1200000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-17.jpg",
+      "ingredients": [
+        "سس مارینارا",
+        "پنیر موزارلا",
+        "کدو سبز",
+        "بادمجان",
+        "فلفل‌ها",
+        "پیاز"
+      ],
+      "soldOut": false
+    },
+    {
+      "id": 18,
+      "name": "توفو و قارچ",
+      "unitPrice": 1200000,
+      "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-18.jpg",
+      "ingredients": [
+        "سس مارینارا",
+        "پنیر موزارلا",
+        "توفو",
+        "قارچ",
+        "فلفل دلمه‌ای"
+      ],
+      "soldOut": false
+    }
+  ]
+}
