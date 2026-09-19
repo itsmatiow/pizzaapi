@@ -1,10 +1,15 @@
-const jsonServer = require("json-server");
+const fs = require("fs");
+const path = require("path");
 
-const server = jsonServer.create();
-const router = jsonServer.router("db.json");
-const middlewares = jsonServer.defaults();
+module.exports = (req, res) => {
+  const dbPath = path.join(process.cwd(), "db.json");
+  const db = JSON.parse(fs.readFileSync(dbPath, "utf8"));
 
-server.use(middlewares);
-server.use(router);
+  if (req.method === "GET" && req.url === "/menu") {
+    return res.status(200).json(db.menu);
+  }
 
-module.exports = server;
+  return res.status(404).json({
+    error: "Route not found",
+  });
+};
