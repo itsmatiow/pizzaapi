@@ -7,18 +7,33 @@ const db = JSON.parse(fs.readFileSync(dbPath, "utf8"));
 let orders = [...db.order];
 
 module.exports = (req, res) => {
-  const url = req.url || "";
+  // CORS
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PATCH, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+  // Preflight request
+  if (req.method === "OPTIONS") {
+    return res.status(200).end();
+  }
+
+  const pathname = new URL(
+    req.url,
+    `https://${req.headers.host}`
+  ).pathname;
 
   // GET /menu
-  if (req.method === "GET" && url === "/menu") {
+  if (req.method === "GET" && pathname === "/menu") {
     return res.status(200).json(db.menu);
   }
 
   // GET /order/:id
-  if (req.method === "GET" && url.startsWith("/order/")) {
-    const id = url.split("/")[2];
+  if (req.method === "GET" && pathname.startsWith("/order/")) {
+    const id = pathname.split("/")[2];
 
-    const order = orders.find((order) => String(order.id) === String(id));
+    const order = orders.find(
+      (order) => String(order.id) === String(id)
+    );
 
     if (!order) {
       return res.status(404).json({
@@ -30,7 +45,7 @@ module.exports = (req, res) => {
   }
 
   // POST /order
-  if (req.method === "POST" && url === "/order") {
+  if (req.method === "POST" && pathname === "/order") {
     let body = "";
 
     req.on("data", (chunk) => {
@@ -55,8 +70,8 @@ module.exports = (req, res) => {
   }
 
   // PATCH /order/:id
-  if (req.method === "PATCH" && url.startsWith("/order/")) {
-    const id = url.split("/")[2];
+  if (req.method === "PATCH" && pathname.startsWith("/order/")) {
+    const id = pathname.split("/")[2];
 
     let body = "";
 
